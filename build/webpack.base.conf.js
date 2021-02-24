@@ -43,7 +43,7 @@ module.exports = {
         rules: [
             //   ...(config.dev.useEslint ? [createLintingRule()] : []),
             {
-                test: / \.scss$ /,
+                test: /\.scss$/,
                 loaders: ['style', 'css', 'sass']
             },
             {
